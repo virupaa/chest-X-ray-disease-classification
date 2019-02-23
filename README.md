@@ -37,4 +37,4 @@ python test.py -t dataset/test/ --visualize
 ```
 
 ## Results
-![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/blob/master/docs/flow.png)
+![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/flow.png)
