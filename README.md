@@ -36,5 +36,8 @@ python train.py -t dataset/train/
 python test.py -t dataset/test/--visualize
 ```
 
-## Results
+## Flow of the model
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/flow.png)
+
+## Results 
+
