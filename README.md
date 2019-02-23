@@ -47,4 +47,11 @@ python test.py -t dataset/test/ --visualize
 ## Accuracy
 The Accuracy of the model for each disease on independent binary classifier was 55-60 precent.
 
+## Reason for choosing this approach
+Initially, we started with multi-label classifier by training one-vs-rest with data for all the diseases altogether.
+However, performance of multi-label was very poor. Accuracy on train was 8.14 % and on CV was 7.21%
+(7-8% accuracy was due to model returning all zero vector, and images with no-finding label had all zero
+vector. And images with no-finding labels in train & CV were 6-7%). Upon investigating we found that it was
+due to data imbalance, while training multi-label one-vs-rest classifier. Hence, we had to implemented
+independent binary classifier for each of the diseases.
 
