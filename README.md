@@ -12,8 +12,7 @@ In our approach, we applied traditional machine learning techniques in building 
 classifier for each of the diseases. We pre-processed image gray scale image by resizing and cropping.
 SIFT (Scale-invariant feature transform) computer vision algorithm was applied on pre-processed image to
 detect feature descriptors in the image. Visual bag of words is constructed from feature descriptors obtained
-from the images.Computed visual bag of words is used as a feature vector for Logistic regression and
-SVM. Each model’s output is binary label.
+from the images.Computed visual bag of words is used as a feature vector for SVM. Each model’s output is binary label.
 
 ## Dataset
 
@@ -32,8 +31,8 @@ python train.py -t dataset/train/
 ```
 
 ## Visualizing the results
-```python
-python test.py -t dataset/test/ -visualize
+```bash
+python test.py -t dataset/test/ --visualize
 ```
 
 ## Flow of the model
@@ -46,6 +45,6 @@ python test.py -t dataset/test/ -visualize
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/result%201.png)
 
 ## Accuracy
-The Accuracy of the model for each disease was 55-60 precent
+The Accuracy of the model for each disease on independent binary classifier was 55-60 precent.
 
 
