@@ -45,3 +45,7 @@ python test.py -t dataset/test/--visualize
 ## Results 
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/result%201.png)
 
+## Accuracy
+The Accuracy of the model for each disease was 55-60 precent
+
+
