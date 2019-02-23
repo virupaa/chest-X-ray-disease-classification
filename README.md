@@ -40,8 +40,7 @@ python test.py -t dataset/test/--visualize
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/flow.png)
 
 ## Extraction of features using SIFT
-
-
+![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/sift.png)
 
 ## Results 
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/result%201.png)
