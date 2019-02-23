@@ -33,7 +33,7 @@ python train.py -t dataset/train/
 
 ## Visualizing the results
 ```python
-python test.py -t dataset/test/ --visualize
+python test.py -t dataset/test/--visualize
 ```
 
 ## Results
