@@ -45,7 +45,7 @@ python test.py -t dataset/test/ --visualize
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/result%201.png)
 
 ## Accuracy
-The Accuracy of the model for each disease on independent binary classifier was 55-60 precent.
+The Accuracy of the model for each disease on independent binary classifier was 60 precent.
 
 ## Reason for choosing this approach
 Initially, we started with multi-label classifier by training one-vs-rest with data for all the diseases altogether.
