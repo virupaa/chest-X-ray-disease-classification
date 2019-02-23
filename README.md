@@ -40,4 +40,4 @@ python test.py -t dataset/test/--visualize
 ![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/flow.png)
 
 ## Results 
-
+![alt text](https://raw.githubusercontent.com/virupaa/chest-X-ray-disease-classification/master/docs/result 1.png)
