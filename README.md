@@ -1,4 +1,4 @@
-# chest-X-ray-disease-classifiaction
+# chest-X-ray-disease-classification
 
 ## Introduction
 
